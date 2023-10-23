@@ -5,7 +5,7 @@
   export let content: string;
 </script>
 <div class="flex flex-row w-full">
-  <dialog class="w-1/2 bg-transparent items-center" id="dialog-{id}">
+  <dialog class="xl:w-1/2 w-2/3 bg-transparent items-center" id="dialog-{id}">
     <EditForm {id} {title} {content} />
   </dialog>
   <button on:click={() => {
